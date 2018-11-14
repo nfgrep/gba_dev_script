@@ -7,9 +7,15 @@ The key commands are:
     arm-none-eabi-objcopy -v -O binary main.elf main.gba
     gbafix main.gba
 
+There is an example file, pong-example.c, included for testing.
+
 ## Requirements:
+This script is intended for MacOS/UNIX environment.
 This script requires devkitPro to be installed.
 See the [devkitARM Getting Started](https://devkitpro.org/wiki/Getting_Started) page.
+
+## Usage:
+Place the gba-dev.sh file in the same folder as the C file you want to process, and run it. 
 
 ## Resources:
 [Developing GBA games](https://www.reinterpretcast.com/writing-a-game-boy-advance-game).
