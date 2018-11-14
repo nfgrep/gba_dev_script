@@ -12,5 +12,5 @@ This script requires devkitPro to be installed.
 See the [devkitARM Getting Started](https://devkitpro.org/wiki/Getting_Started) page.
 
 ## Resources:
-[Developing GBA games](https://www.reinterpretcast.com/writing-a-game-boy-advance-game)
-[Installing devkitARM](https://devkitpro.org/wiki/Getting_Started)
+[Developing GBA games](https://www.reinterpretcast.com/writing-a-game-boy-advance-game).
+[Installing devkitARM](https://devkitpro.org/wiki/Getting_Started).
