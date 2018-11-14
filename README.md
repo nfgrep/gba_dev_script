@@ -18,5 +18,7 @@ See the [devkitARM Getting Started](https://devkitpro.org/wiki/Getting_Started) 
 Place the gba-dev.sh file in the same folder as the C file you want to process, and run it. 
 
 ## Resources:
+### Using devkitARM to make GBA ROMS/General GBA-dev info:
 [Developing GBA games](https://www.reinterpretcast.com/writing-a-game-boy-advance-game).
+### Installing devkitARM/gba-dev tools
 [Installing devkitARM](https://devkitpro.org/wiki/Getting_Started).
