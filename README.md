@@ -1,4 +1,4 @@
-# gba-dev-script
+# gba-dev.sh
 This shell script uses the [devkitARM](https://github.com/devkitPro) toolchain to cross compile, link, strip, and fix a C file into a GBA ROM file.
 The key commands are:
 
@@ -8,6 +8,16 @@ The key commands are:
     gbafix main.gba
 
 There is an example file, pong-example.c, included for testing.
+
+# gh.sh
+This is a trimmed version of gba-dev.sh, it runs the same commands without any prompts.
+It is meant for rapid prototyping/compiling.
+
+It defaults to:
+    
+    -Using whatever .c file is it its same directory (./*.c)
+    -Adding default location of command to path if not found
+    -Removing .obj and .elf files 
 
 ## Requirements:
 This script is intended for MacOS/UNIX environment.
