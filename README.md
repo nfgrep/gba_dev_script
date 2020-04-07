@@ -15,7 +15,7 @@ It is meant for rapid prototyping/compiling.
 
 It defaults to:
     
-    -Using whatever .c file is it its same directory (./*.c)
+    -Using whatever .c file is in the same directory (./*.c)
     -Adding default location of command to path if not found
     -Removing .obj and .elf files 
 
