@@ -12,8 +12,7 @@
 #Author: nfgrep
 #This script needs to be in the same directory as the C file you wish to convert.
 
-f=./*.c
-
+f=$(echo ./*.c)
 compile_c () {
     arm-none-eabi-gcc -c ./$1 -fno-strict-aliasing -mthumb-interwork -mthumb -O2 -o ${1//.c}.o
     arm-none-eabi-gcc ${1//.c}.o -mthumb-interwork -mthumb -specs=gba.specs -o ${1//.c}.elf
@@ -37,7 +36,7 @@ then
         exit 1
     fi
 fi
-
+echo ${f//.c}
 arm-none-eabi-objcopy -v -O binary ${f//.c}.elf ${f//.c}.gba
 gbafix ${f//.c}.gba
 if [ $? = 127 ]
