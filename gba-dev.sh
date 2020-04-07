@@ -1,5 +1,5 @@
 
-#!/bin/sh
+#!/bin/bash
 #This script simplifies the process of turning C code into a playable GBA ROM.
 #Designed for use with devkitARM toolchain.
 #Developed on MacOS Mojave - 2018: YMMV.
