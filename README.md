@@ -7,8 +7,6 @@ The key commands are:
     arm-none-eabi-objcopy -v -O binary main.elf main.gba
     gbafix main.gba
 
-There is an example file, pong-example.c, included for testing.
-
 # gh.sh
 This is a trimmed version of gba-dev.sh, it runs the same commands without any prompts.
 It is meant for rapid prototyping/compiling.
